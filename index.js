@@ -42,9 +42,9 @@ function renderGame() {
     }
     sumEl.textContent = "Sum: " + sum;
     if (sum <= 20) {
-        message = "Do you want to draw new cards?";
+        message = "Do you want to draw new card?";
     } else if (sum === 21) {
-        message = "You've got a Blackjack!";
+        message = "Congrats! You've got a Blackjack!";
         hasBlackJack = true;
     } else {
         message = "You're out of the Game";
