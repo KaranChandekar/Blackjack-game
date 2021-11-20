@@ -38,7 +38,7 @@ function startGame() {
 function renderGame() {
     cardsEl.textContent = "Cards: ";
     for (let i = 0; i < cards.length; i++) {
-        cardsEl.textContent += cards[i] + " ";
+        cardsEl.textContent += cards[i] + " " + " ";
     }
     sumEl.textContent = "Sum: " + sum;
     if (sum <= 20) {
